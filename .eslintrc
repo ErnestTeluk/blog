@@ -20,6 +20,10 @@
     "prettier/prettier"
   ],
   "rules": {
-    "react/fuction-components-definition": 0
+    "react/fuction-components-definition": 0,
+    "import/prefer-default-export": 0,
+    "import/no-extraneous-dependencies": 0,
+    "no-useless-escape": 0,
+    "@typescript-eslint/restrict-template-expressions": 0
   }
 }
