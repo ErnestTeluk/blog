@@ -1,7 +1,8 @@
 import React from 'react';
+import Layout from '../components/Layout';
 
 function IndexPage() {
-  return <main>test</main>;
+  return <Layout>test</Layout>;
 }
 
 export default IndexPage;

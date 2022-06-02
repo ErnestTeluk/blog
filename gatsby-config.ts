@@ -36,6 +36,37 @@ const config: GatsbyConfig = {
       },
       __key: 'pages',
     },
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        name: 'components',
+        path: './src/components/',
+      },
+      __key: 'components',
+    },
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        name: 'hooks',
+        path: './src/hooks/',
+      },
+      __key: 'hooks',
+    },
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        name: 'theme',
+        path: './src/theme/',
+      },
+      __key: 'theme',
+    },
+    {
+      resolve: 'gatsby-plugin-google-fonts',
+      options: {
+        fonts: ['Fira Code\:300,400,500,700', 'lato\:300,400,400i,700'],
+        display: 'swap',
+      },
+    },
   ],
 };
 
