@@ -9,6 +9,13 @@ export const StyledHeader = styled.header`
   display: flex;
   justify-content: space-between;
   align-items: center;
+
+  @media screen and (max-width: 480px) {
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+  }
 `;
 
 export const StyledTitleLink = styled(Link)`
@@ -17,6 +24,10 @@ export const StyledTitleLink = styled(Link)`
   font-weight: ${({ theme }) => theme.fontWeight.bold};
   text-decoration: none;
   cursor: pointer;
+
+  @media screen and (max-width: 480px) {
+    margin-bottom: 10px;
+  }
 `;
 
 export const StyledNav = styled.nav`
