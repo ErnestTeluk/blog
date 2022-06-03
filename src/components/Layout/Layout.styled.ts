@@ -28,4 +28,12 @@ export const GlobalStyles = createGlobalStyle`
 export const SiteWrapper = styled.div`
   width: 672px;
   height: auto;
+
+  @media screen and (max-width: 700px) {
+    width: 450px;
+  }
+
+  @media screen and (max-width: 480px) {
+    width: 350px;
+  }
 `;
