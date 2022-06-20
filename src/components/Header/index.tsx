@@ -23,9 +23,6 @@ function Header({
       <StyledTitleLink to="/">DevThinking</StyledTitleLink>
       <StyledNav>
         <li>
-          <StyledLink to="/about">About</StyledLink>
-        </li>
-        <li>
           <StyledLink as="a" href="https://github.com/ErnestTeluk">
             Github
           </StyledLink>

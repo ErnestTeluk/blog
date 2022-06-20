@@ -1,14 +1,14 @@
 const darkColors = {
   bg: '#2d3436',
   text: '#dfe6e9',
-  textTitle: '#ffffff',
+  textTitle: '#6c5ce7',
   textLink: '#6c5ce7',
 };
 
 const lightColors = {
   bg: '#dfe6e9',
   text: '#2d3436',
-  textTitle: '#000000',
+  textTitle: '#6c5ce7',
   textLink: '#6c5ce7',
 };
 
