@@ -34,7 +34,7 @@ export const StyledNav = styled.nav`
   list-style: none;
   display: flex;
   justify-content: space-between;
-  width: 190px;
+  width: 140px;
 `;
 
 export const StyledLink = styled(Link)`

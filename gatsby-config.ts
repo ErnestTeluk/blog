@@ -31,6 +31,14 @@ const config: GatsbyConfig = {
     {
       resolve: 'gatsby-source-filesystem',
       options: {
+        name: 'posts',
+        path: './src/blogPost/',
+      },
+      __key: 'posts',
+    },
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
         name: 'pages',
         path: './src/pages/',
       },
@@ -61,9 +69,17 @@ const config: GatsbyConfig = {
       __key: 'theme',
     },
     {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        name: 'assets',
+        path: './src/assets/',
+      },
+      __key: 'assets',
+    },
+    {
       resolve: 'gatsby-plugin-google-fonts',
       options: {
-        fonts: ['Fira Code\:300,400,500,700', 'lato\:300,400,400i,700'],
+        fonts: ['Fira Code:300,400,500,700', 'lato:300,400,400i,700'],
         display: 'swap',
       },
     },
